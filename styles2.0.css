@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Desktop/Global View*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	max-width: 1024px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col {
+	
+	float: left;
+	padding: 1%;
+}
+
+
+.col-lg {
+	width: 31.3%;
+}
+
+.col-lg img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+.slicknav_menu {
+	display: none;
+}
+
+.hero {
+	background-image:url("images/brushes.jpg");
+	padding: 5px 0px 72px 72px;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.heading {
+	font-weight: 500; 
+	font-size: 35px;
+	padding: 10px 20px 10px 20px;
+
+}
+
+.portfolio-button {
+	background-color: #7BA885; 
+	padding: 8px 30px;
+	text-decoration: none;
+	color: white;
+	align-items: center;
+	align-content: center;
+	margin: 400px;
+
+}
+
+
+
+
+
+
+
+
+h1 {
+	color: white;
+	font-weight: 500;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px 
+	
+}
+
+
+h2 {
+	padding-top: 45px;
+	color: white;
+	font-size: 45px;
+	font-weight: 400;
+	text-align: center;
+}
+p {
+	color: white;
+	font-size: 30px;
+	font-weight: 50; 
+	align-content: center;
+	text-align: center;
+}
+h3 {
+	color: white;
+	font-size: 45px;
+	font-weight: 400;
+	text-align: center
+}
+h4 {
+	padding-top: 45px;
+	color: white;
+	font-size: 45px;
+	font-weight: 400;
+	text-align: center;
+	
+	
+	
+}
+
+h5 {
+	color: white;
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	left: 300px;
+}
+
+
+
+
+footer {
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#menu {
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 18px;
+}
+
+header {
+	padding: 10px 20px 20px 20px;
+}
+
+
+/*Tablet View*/
+
+@media (max-width: 768px) {
+	
+	#menu li {
+	display: block;
+	text-align: right;
+}	
+	
+	.col-md {
+		width: 48%;
+	}
+	
+	
+	
+	
+}
+	
+	
+	
+/*Mobile View*/
+
+@media (max-width: 400px) {
+	
+.slicknav_menu {
+	display: block;
+}	
+	
+	#menu {
+		display: none;
+	}
+	
+	.col-sm {
+		width: 100%; 		
+	}
+	
+	.footer {
+		float: left;
+	}
+	.h4{
+		font-weight: 100;
+		float: left;
+		padding-top: 20px;
+	}
+	
+	
+	
+}
